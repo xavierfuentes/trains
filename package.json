@@ -1,0 +1,31 @@
+{
+  "name": "@xlabs/trains",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --print-width 120 --write",
+      "git add"
+    ],
+    "yarn.lock": [
+      "git rm --cached"
+    ]
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "concurrently \"cd packages/server && npm start\" \"cd packages/client && npm start\"",
+    "start:client": "cd packages/client && npm start",
+    "start:server": "cd packages/server && node bin/react-scripts.js start"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.10.2"
+  },
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  }
+}

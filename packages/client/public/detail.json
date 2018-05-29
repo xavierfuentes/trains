@@ -1,0 +1,382 @@
+{
+  "requestId": "I+7COFBlQ02Vw1bO2dPgSw",
+  "isRealTimeDataAvailable": true,
+  "service": {
+    "serviceUid": "W12612",
+    "serviceOperator": "SW",
+    "transportMode": "TRAIN",
+    "serviceOrigins": ["WAT"],
+    "serviceDestinations": ["GLD"],
+    "stops": [
+      {
+        "location": { "crs": "WAT" },
+        "arrival": { "notApplicable": true },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T06:33:00+01:00", "scheduledPlatform": "6" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T06:33:00+01:00",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "PickUp"
+      },
+      {
+        "location": { "crs": "VXH" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T06:36:00+01:00" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T06:36:00+01:00",
+              "realTimePlatform": "8",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T06:37:00+01:00" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T06:37:00+01:00",
+              "realTimePlatform": "8",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "CLJ" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T06:41:00+01:00", "scheduledPlatform": "11" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T06:41:00+01:00",
+              "realTimePlatform": "11",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T06:42:00+01:00", "scheduledPlatform": "11" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T06:42:00+01:00",
+              "realTimePlatform": "11",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "EAD" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T06:45:00+01:00", "scheduledPlatform": "3" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T06:45:00+01:00",
+              "realTimePlatform": "3",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T06:45:00+01:00", "scheduledPlatform": "3" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T06:45:00+01:00",
+              "realTimePlatform": "3",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "WIM" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T06:49:00+01:00", "scheduledPlatform": "8" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T06:49:00+01:00",
+              "realTimePlatform": "8",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T06:49:00+01:00", "scheduledPlatform": "8" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T06:49:00+01:00",
+              "realTimePlatform": "8",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "SUR" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T06:57:00+01:00", "scheduledPlatform": "4" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T06:57:00+01:00",
+              "realTimePlatform": "4",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T06:57:00+01:00", "scheduledPlatform": "4" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T06:57:00+01:00",
+              "realTimePlatform": "4",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "HYW" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:01:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T07:01:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:01:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T07:01:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "CLG" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:04:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T07:04:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:04:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T07:04:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "OXS" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:07:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T07:07:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:07:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T07:07:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "CSD" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:11:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T07:11:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:11:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T07:11:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "EFF" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:15:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T07:15:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:15:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T07:15:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "HSY" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:18:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T07:18:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:18:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T07:18:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "CLA" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:23:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T07:23:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:23:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T07:23:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "LRD" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:28:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T07:28:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:28:00+01:00", "scheduledPlatform": "2" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasDeparted": false,
+              "realTime": "2018-05-24T07:28:00+01:00",
+              "realTimePlatform": "2",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "callingType": "Normal"
+      },
+      {
+        "location": { "crs": "GLD" },
+        "arrival": {
+          "scheduled": { "scheduledTime": "2018-05-24T07:34:00+01:00", "scheduledPlatform": "1" },
+          "realTime": {
+            "realTimeServiceInfo": {
+              "hasArrived": false,
+              "realTime": "2018-05-24T07:34:00+01:00",
+              "realTimePlatform": "1",
+              "realTimeFlag": "Estimate"
+            }
+          }
+        },
+        "departure": { "notApplicable": true },
+        "callingType": "SetDown"
+      }
+    ]
+  }
+}

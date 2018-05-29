@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test MiniService component renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-bottom: 0.071em;
+  background: #ffffff;
+  padding: 0.714em;
+  border-left: 0.357em solid transparent;
+}
+
+.c0 .scheduled-time,
+.c0 .service-info,
+.c0 .service-realtime {
+  padding: 0.357em;
+}
+
+.c0 .scheduled-time {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-weight: 700;
+  font-size: 1.143em;
+}
+
+.c0 .service-info {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+.c0 .service-realtime {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  text-align: right;
+}
+
+.c0 .service-operator {
+  color: #9b9f9e;
+  font-size: 0.857em;
+}
+
+.c0.active {
+  background: #d8f3ec;
+  border-left-color: #244774;
+}
+
+<article
+  className="service c0"
+  onClick={[Function]}
+>
+  <div
+    className="scheduled-time"
+  >
+    13:06
+  </div>
+  <div
+    className="service-info"
+  >
+    <div
+      className="service-identifier"
+    >
+      W13317
+    </div>
+    <div
+      className="service-operator"
+    >
+      SW
+    </div>
+  </div>
+  <div
+    className="service-realtime"
+  >
+    <div
+      className="service-platform"
+    >
+      Plat.
+      2
+    </div>
+    <div
+      className="service-status ontime"
+    >
+      On Time
+    </div>
+  </div>
+</article>
+`;

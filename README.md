@@ -9,7 +9,7 @@ Create a simple two "page" web application using node, react, redux (or another 
      - The realtime API returns origin/destination stations and service operators as codes, so get your app working by just displaying the codes
      - Include only services where transport mode is TRAIN
  - List all departing services, like this:
- 
+
 ![mockup](Farringdon_to_West_Hampstead_Thameslink___Services.png)
 
  - On click/tap on a service, display calling pattern like this:
@@ -21,3 +21,16 @@ Create a simple two "page" web application using node, react, redux (or another 
  - Responsive layout
  - Transition between views
  - Automatic update of train progress
+
+ ## Quick start
+After installing dependencies with `npm i` or `yarn` run `npm start` or `yarn start` and go to [http://localhost:3000](http://localhost:3000).
+
+## Test
+To run tests on the client, navigate to the client `cd packages/client` and run `npm test` or `yarn test`
+
+## Todo
+- finish styling for service detail
+- add more snapshot and unit testing
+
+## Improvements
+- Automatic update of train progress

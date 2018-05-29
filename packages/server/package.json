@@ -1,0 +1,19 @@
+{
+  "name": "@xlabs/trains-server",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Xavier Fuentes <mr.xavierfuentes@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
